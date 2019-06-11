@@ -4,11 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @Title: StringUtils.java 
- * @Package com.baoku.pay.uitls 
- * @Description: TODO() 
- * @author waming  
- * @date 2012   2012-3-1  下午04:55:50   
+ * @Title: StringUtils.java
  */
 
 public class StringUtils {

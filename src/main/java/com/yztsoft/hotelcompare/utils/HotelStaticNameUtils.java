@@ -16,20 +16,12 @@ import java.util.regex.Pattern;
 
 /**
  *酒店静态信息（地区、名称处理）
- *@ClassName：GeoCityName
- *@authur：miwang miwang@baoku.com
- *@date：2016年8月26日 下午1:47:44   
- *@version 1.0
  */
 public class HotelStaticNameUtils {
 	/**
 	 * 长度>2 过滤其中名称最后 是区、县、市、盟、自治州的部分
 	 * @param name
-	 * @return 
-	 * String 
-	 * @throws
-	 * @author miwang
-	 * @date 2016年8月26日 下午1:56:36
+	 * @return
 	 */
 	public static String replaceStr(String name) {
 		if (StringUtils.isNotBlank(name) && name.length() > 2) {
@@ -59,9 +51,6 @@ public class HotelStaticNameUtils {
 	 * 
 	 * @param text
 	 * @return String
-	 * @throws
-	 * @author chuanqingzhang
-	 * @date 2016年3月11日 下午1:53:14
 	 */
 	public static String stringFilter(String text) {
 		// 清除掉所有特殊字符
@@ -77,11 +66,7 @@ public class HotelStaticNameUtils {
 	/**
 	 * 抽取数字
 	 * @param text
-	 * @return 
-	 * String 
-	 * @throws
-	 * @author miwang
-	 * @date 2016年8月26日 下午2:04:18
+	 * @return
 	 */
 	public static String digitalNumber(String text) {
 		String rs = "";
@@ -104,11 +89,7 @@ public class HotelStaticNameUtils {
 	/**
 	 * 酒店名称处理部门关键字 用户名称对比
 	 * @param hotelName
-	 * @return 
-	 * String 
-	 * @throws
-	 * @author miwang
-	 * @date 2016年8月26日 下午2:07:35
+	 * @return
 	 */
 	public static String replcae(String hotelName){
 		if(StringUtils.isNotBlank(hotelName)){
@@ -124,9 +105,6 @@ public class HotelStaticNameUtils {
 	 * @param roomName
 	 *            房型名称
 	 * @return String 过滤后房型名称
-	 * @throws
-	 * @author chuanqingzhang
-	 * @date 2016年3月24日 下午4:15:47
 	 */
 	public static String roomfilterName(String roomName) {
 		String result = roomName;

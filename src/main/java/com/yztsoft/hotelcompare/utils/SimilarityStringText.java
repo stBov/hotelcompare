@@ -10,11 +10,7 @@ package com.yztsoft.hotelcompare.utils;
 
 /**
  * 比较两个字符串的相似度
- * 
- * @ClassName：SimilarityStringText
- * @authur：miwang miwang@baoku.com
- * @date：2016年2月23日 下午4:06:27
- * @version 1.0
+ *
  */
 public class SimilarityStringText {
 	private static int compare(String str, String target) {
@@ -65,10 +61,7 @@ public class SimilarityStringText {
 	 * @param str 字符串
 	 * @param target 字符串
 	 * @return 
-	 * float 
-	 * @throws
-	 * @author miwang
-	 * @date 2016年2月23日 下午6:01:15
+	 * float
 	 */
 	public static float similarity(String str, String target) {
 		return 1 - (float) compare(str, target) / Math.max(str.length(), target.length());
