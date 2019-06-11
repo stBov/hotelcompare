@@ -1,11 +1,3 @@
-/** 
- *@Copyright (c) 宝库技术团队 www.baoku.com
- *@Package com.baoku.hotel.common.utils
- *@Project：baoku-hotel-manager
- *@authur：miwang miwang@baoku.com
- *@date：2016年2月23日 下午4:06:27   
- *@version 1.0
- */
 package com.yztsoft.hotelcompare.utils;
 
 /**
